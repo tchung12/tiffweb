@@ -7,7 +7,7 @@ body {
     /*background: linear-gradient(#ACABB1, #B5B5B7);*/ /* Standard syntax (must be last) */
 	vertical-align: center;
 	text-align: center;
-
+	min-height: 100%;
 	margin-bottom: 85px;
 }
 
@@ -65,7 +65,7 @@ img.navtab {
 }
 
 .footer {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 	height: 85px;
@@ -99,6 +99,16 @@ img.navtab {
 	font-size: 2em;
 	top: 38%;
 	left: 20%;
+}
+
+#mydescription {
+	text-align: left;
+	position: absolute;
+	font-size: 1.5em;
+	top: 35%;
+	left: 15%;
+	width: 45%;
+	word-wrap: break-word;
 }
 
 #dresume {
