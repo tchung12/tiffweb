@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tiffany Chung</title>
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src = "jquery-1.11.3.min.js"></script>
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="tiff3_style.css">
+	<script src = "tiff_script.js"></script>
+
+	<link rel="icon" href="rocketship.png" type="image/png">
+	<link href='https://fonts.googleapis.com/css?family=Dosis:400,600' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+<!--     <ul class="nav nav-pills nav-justified">
+        <li><a a data-toggle="pill" href="#" class="disabled">Tiffany Chung</a></li>
+        <li><a data-toggle="pill" href="#about"><img class = "navtab" src="planetpics/venus.png"/></a></li>
+        <li class = "active"><a data-toggle="pill" href="#home"><img class = "navtab" src="planetpics/earth.png"></a></li>
+        <li><a data-toggle="pill" href="#resume"><img class = "navtab" src="planetpics/mars.png"/></a></li>
+        <li><a data-toggle="pill" href="#education"><img class = "navtab" src="planetpics/jupiter.png"/></a></li>
+        <li><a data-toggle="pill" href="#portfolio"><img class = "navtab" src="planetpics/saturn.png"/></a></li>
+        <li><a data-toggle="pill" href="#contact"><img class = "navtab" src="planetpics/uranus.png"/></a></li>
+    </ul>  -->   
+    <ul class="nav nav-pills nav-justified">
+        <li class = "active"><a a data-toggle="pill" href="#home">Tiffany Chung</a></li>
+        <li><a data-toggle="pill" href="#about">About Me</a></li>
+        <li><a data-toggle="pill" href="#resume">Experience</a></li>
+        <li><a data-toggle="pill" href="#education">Education</a></li>
+        <li><a data-toggle="pill" href="#portfolio">Portfolio</a></li>
+        <li><a data-toggle="pill" href="#contact">Contact</a></li>
+    </ul>
+	
+	<img id = "me" src="pics/tiff_white.png">
+
+	<div class="tab-content items">
+		<div class = "tab-pane active" id ="home">
+			<h1 id = "welcome">T. CHUNG</h1>
+			<p id = "welcomedesc">Computer Science + Medicine</p>
+		</div>
+
+		<div class = "tab-pane" id ="about">
+			<h1 class = "subtitles">About Me</h1>
+			<p>Current student at Johns Hopkins University in Baltimore, Maryland. Faced with fork in the road of computer science or medicine.</p>
+		</div>
+
+		<div class = "tab-pane" id ="resume">
+			<h1 class = "subtitles">Experience</h1>
+			<a class="btn btn-primary btn-lg" role="button" id = "dresume" href="/home/thc/Documents/tiffweb/TiffanyChung.pdf" download>Download Resume</a>
+		</div>
+
+		<div class = "tab-pane" id ="education">
+			<h1 class = "subtitles">Johns Hopkins University</h1>
+
+		    <ul class="nav nav-pills nav-stacked classlist">
+		        <li><a data-toggle="pill" href="#f13">Fall 2013</a></li>
+		        <li><a data-toggle="pill" href="#s14">Spring 2014</a></li>
+		        <li><a data-toggle="pill" href="#f14">Fall 2014</a></li>
+		        <li><a data-toggle="pill" href="#s15">Spring 2015</a></li>
+		        <li><a data-toggle="pill" href="#f15">Fall 2015</a></li>
+		        <li><a data-toggle="pill" href="#oth">Other</a></li>
+		    </ul>
+
+			<div class="tab-content items">
+
+				<div class = "tab-pane classes" id ="f13">
+					<p>Intro Programming Java</p>
+					<p>Organic Chemistry I</p>
+					<p>Differential Equations</p>
+					<p>Freshman Seminar: Plato</p>
+				</div>
+				<div class = "tab-pane classes" id ="s14">
+					<p>Data Structures</p>
+					<p>Discrete Mathematics</p>
+					<p>Organic Chemistry II</p>
+					<p>Organic Chemistry Lab</p>
+				</div>		
+				<div class = "tab-pane classes" id ="f14">
+					<p>Computer System Fundamentals</p>
+					<p>Intermediate Programming</p>
+					<p>Computer Ethics</p>
+					<p>Intro Psychology</p>
+					<p>Biology I</p>
+					<p>Biology I Lab</p>
+					<p>History of Forensic Medicine</p>
+				</div>		
+				<div class = "tab-pane classes" id ="s15">
+					<p>Algorithms</p>
+					<p>Automata and Computation Theory</p>
+					<p>Computer Network Fundamentlas</p>
+					<p>Medical Informatics</p>
+					<p>Biology II</p>
+					<p>Biology II Lab</p>
+					<p>Linear Algebra</p>
+					</br>
+					<p>*Course Assistant for Intermediate Programming</p>
+				</div>	
+				<div class = "tab-pane classes" id ="f15">
+					<p>Computer Integrated Surgery I</p>
+					<p>Computer Vision</p>
+					<p>Databases</p>
+					<p>HEART: Human-Robot Collaboration</p>
+					<p>Biomechanics</p>
+					<p>Biochemistry</p>
+					</br>
+					<p>*Course Assistant for Intermediate Programming</p>
+				</div>				
+				<div class = "tab-pane classes" id ="oth">
+					<h2>Intersession 2014</h2>
+					<p>Advanced Cardiac Imaging</p>
+					<p>Magic Bullets: How Drugs Really Work</p>
+					<h2>Summer 2014</h2>
+					<p>Physics I, II, III</p>
+					<p>Physics I, II, III Lab</p>
+					<h2>Intersession 2015</h2>
+					<p>Study Abroad: Ecuador and Galapagos Islands</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class = "tab-pane" id ="portfolio">
+			<h1 class = "subtitles">Portfolio</h1>
+		</div>
+
+		<div class = "tab-pane" id ="contact">
+			<h1 class = "subtitles">Contact Me</h1>
+			<a id = "eme" href = "mailto:tchung12@jhu.edu">tchung12@jhu.edu</a>
+			<a href= "https://www.linkedin.com/pub/tiffany-chung/a8/994/6a6" target="_blank" id ="linkb">
+          		<img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Tiffany Chung's profile on LinkedIn">
+        	</a>
+		</div>	
+	</div>
+
+
+	<footer class = "footer">
+		<div class = "container">
+			<p id = "currently-in">Tiffany is currently in Baltimore, MD.</p>
+		</div>
+	</footer>
+
+
+</body>
+
