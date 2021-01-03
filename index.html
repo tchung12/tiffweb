@@ -1,0 +1,58 @@
+---
+title: T. Chung
+description: Tiffany Chung is a full-stack, mixed-reality engineer from California.
+download: "./tiffanychung.pdf"
+---
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <h1>{{ title }}</h1>
+        <p>
+            {% for word in attributes %}
+            {{ word }}. 
+            {% endfor %}
+        </p>
+
+        <h2>about</h2>
+        <p>{{ description }}</p>
+        <a href="{{ download }}" target="_blank">résumé</a>
+
+        <h2>qualities</h2>
+        <ul>
+        {% for q in qualities %}
+            <li>
+                <h4>{{ q.heading }}</h4>
+                <p>{{ q.subheading }}</p>
+            </li>
+        {% endfor %}
+        </ul>
+
+        <h2>projects</h2>
+        <ul>
+        {%- assign posts = collections.post | reverse -%}
+        {% for post in posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.data.title }}</a>
+                <br/>
+            </li>
+        {% endfor %}
+        </ul>
+
+        <h2>links</h2>
+        <ul>
+        {% for l in links %}
+            <li>
+                <i class="fa {{ l.icon }}"></i>
+                {% capture url %}{{ l.link }}{% endcapture %}
+                <a href="{{ l.link | typeEmail }} " target="_blank">{{ l.display }}</a>
+                <br/>
+            </li>
+        {% endfor %}
+        </ul>
+    </body>
+</html>

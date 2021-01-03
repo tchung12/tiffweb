@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "fa-envelope",
+        "link": "hello@thetiffchung.com",
+        "display": "hello@thetiffchung.com"
+    },
+    {
+        "icon": "fa-linkedin",
+        "link": "https://linkedin.com/in/tchung12",
+        "display": "tchung12"
+    },
+    {
+        "icon": "fa-instagram",
+        "link": "https://www.instagram.com/brunchwtiff",
+        "display": "brunchwtiff"
+    }
+]
