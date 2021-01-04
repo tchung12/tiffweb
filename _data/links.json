@@ -13,5 +13,10 @@
         "icon": "fa-instagram",
         "link": "https://www.instagram.com/brunchwtiff",
         "display": "brunchwtiff"
+    },
+    {
+        "icon": "fa-github",
+        "link": "https://github.com/tchung12/tiffweb",
+        "display": "source code"
     }
 ]
