@@ -16,9 +16,6 @@ $ npx @11ty/eleventy --serve
 ```
 
 
-## [Firebase](https://console.firebase.google.com) Commands
-
-
 ```
 # deploy to tiffweb
 $ npx firebase deploy
